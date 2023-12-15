@@ -1,0 +1,50 @@
+.skill-main{
+    width: 100%;
+    height: 90%;
+    color: white;
+    position: relative;
+}
+.skill-main>h1{
+    font-size: 35px;
+    left: 30px;
+    position: relative;
+    top: 20px;
+    border-bottom: 2px solid rgb(128, 128, 128);
+    width: 95%;
+}
+.skills{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+    top: 90px;
+}
+.skills div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 17%;
+    height: 20vh;
+    border: 1px solid white;
+    font-size: 20px;
+    color: rgb(106, 222, 222);
+    box-shadow: 0 0 6px 2px rgb(106, 222, 222);
+}
+.skills i{
+    font-size: 40px;
+}
+.skills img{
+    height: 6.5vh;
+    width: 30%;
+    color: aqua;
+    border-radius: 50%;
+    background-color: black;
+}
+.skills div:hover{
+    transform: scale(1.04,1.04);
+}
