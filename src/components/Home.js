@@ -1,6 +1,8 @@
+
 import "./Home.css"
 let Home=()=>{
     return(
+        <div>
         <div className="home">
             <div className="homedes">
                 <h2>Hello, It's Me</h2>
@@ -14,6 +16,7 @@ let Home=()=>{
             <div className="homeimg">
                 <img src={require('../images/PHOTO.jpg')} alt="img not found"/>
             </div>
+        </div>
         </div>
     )
 }
