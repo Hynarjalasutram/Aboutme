@@ -1,4 +1,5 @@
 import Nav from "./Nav"
+import React from "react";
 import About from "./components/About"
 import Contact from "./components/Contact"
 import Home from "./components/Home"
@@ -12,7 +13,7 @@ let App=()=>{
     <BrowserRouter>
     <Nav/>
     <Routes>
-      <Route path="/Portfolio" element={<Home/>}/>
+      <Route path="/" element={<Home/>}/>
       <Route path="/about" element={<About/>}/>
       <Route path="/skills" element={<Skills/>}/>
       <Route path="/projects" element={<Projects/>}/>

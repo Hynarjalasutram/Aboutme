@@ -1,5 +1,6 @@
 import "./About.css"
 import "../images/PHOTO.jpg"
+import React from "react";
 let About=()=>{
     return(
         <div className="about">

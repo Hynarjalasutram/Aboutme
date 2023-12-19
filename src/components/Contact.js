@@ -1,4 +1,5 @@
 import "./contant.css"
+import React from "react";
 let Contact=()=>{
     return(
         <div className="main" >

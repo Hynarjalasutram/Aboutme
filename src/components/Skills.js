@@ -1,4 +1,5 @@
 import "./Skills.css"
+import React from "react";
 let Skills=()=>{
     return(
         <div className="skill-main">
