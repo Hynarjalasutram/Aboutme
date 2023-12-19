@@ -7,7 +7,7 @@ let Nav=()=>{
         <nav className="nav">
             <div className="navleft">Portfolio</div>
             <div id="navright">
-                 <div><Link to="/"><span>Home</span></Link></div>
+                 <div><Link to="/Aboutme/"><span>Home</span></Link></div>
                  <div><Link to="/about"><span>About</span></Link></div>
                  <div><Link to="/skills"><span >Skills</span></Link></div>
                  <div><Link to="/projects"><span >Projects</span></Link></div>
