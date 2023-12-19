@@ -12,9 +12,7 @@ let App=()=>{
     <BrowserRouter>
     <Nav/>
     <Routes>
-      <Route path="/My-portfolio" element={<Home/>}>
-
-      </Route>
+      <Route path="/Portfolio" element={<Home/>}/>
       <Route path="/about" element={<About/>}/>
       <Route path="/skills" element={<Skills/>}/>
       <Route path="/projects" element={<Projects/>}/>
